@@ -39,7 +39,8 @@ static osc_t *alti = NULL; /* Height (Z position). This goes from -1000 to
 static osc_t *color = NULL; /* Consider this to be an angle of a circle going 
    around the color wheel. It's in tenths of a degree (consistency is all I 
    ask) so it ranges from 0 to 3600. */
-/* static GLint prevtime = 0; /* for timing */
+/* for timing: */
+/* static GLint prevtime = 0; */
 
 int init_move()
 {
